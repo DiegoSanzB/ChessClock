@@ -1,2 +1,2 @@
 # ChessClock
-Chess Clock using Arduino.
+Chess Clock using a STM32 MCU.
