@@ -1,0 +1,47 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid dadeda26-bda2-4a38-b8b7-eb1530c1fd56)
+
+  (paper "A4")
+
+  (title_block
+    (title "ChessClock")
+    (rev "v0.1")
+    (comment 1 "Chess Clock using a stm32 mcu")
+    (comment 2 "Made by: Diego Sanz")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 50.8 50.8) (size 25.4 25.4)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 255 229 191 1.0000))
+    (uuid 47bef9a2-d7e4-4e76-ae97-0be360e75332)
+    (property "Sheet name" "2_buck_converter" (id 0) (at 53.34 55.88 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "2_buck_converter.kicad_sch" (id 1) (at 50.8 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 101.6 50.8) (size 25.4 25.4)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 255 255 194 1.0000))
+    (uuid 6063b482-ee15-4ecc-a178-51f71dc33471)
+    (property "Sheet name" "STM32" (id 0) (at 104.14 55.88 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "3_stm32.kicad_sch" (id 1) (at 101.6 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/47bef9a2-d7e4-4e76-ae97-0be360e75332" (page "2"))
+    (path "/6063b482-ee15-4ecc-a178-51f71dc33471" (page "3"))
+  )
+)
