@@ -19,7 +19,7 @@
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 255 229 191 1.0000))
     (uuid 47bef9a2-d7e4-4e76-ae97-0be360e75332)
-    (property "Sheet name" "2_buck_converter" (id 0) (at 53.34 55.88 0)
+    (property "Sheet name" "Buck_Converter" (id 0) (at 53.34 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "2_buck_converter.kicad_sch" (id 1) (at 50.8 76.7846 0)
